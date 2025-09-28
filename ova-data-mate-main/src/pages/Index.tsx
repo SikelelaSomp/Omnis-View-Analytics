@@ -278,8 +278,8 @@ const Index = () => {
                     <span className="text-primary font-semibold">MJ</span>
                   </div>
                   <div>
-                    <p className="font-semibold">Michael Johnson</p>
-                    <p className="text-sm text-muted-foreground">Data Scientist, StartupXYZ</p>
+                    <p className="font-semibold">Nandipha Phiko</p>
+                    <p className="text-sm text-muted-foreground">Data Scientist</p>
                   </div>
                 </div>
               </CardHeader>
@@ -298,7 +298,7 @@ const Index = () => {
                     <span className="text-primary font-semibold">EL</span>
                   </div>
                   <div>
-                    <p className="font-semibold">Emily Liu</p>
+                    <p className="font-semibold">Keotshepile Tshele</p>
                     <p className="text-sm text-muted-foreground">Freelance Analyst</p>
                   </div>
                 </div>
