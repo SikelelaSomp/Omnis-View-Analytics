@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 OVA. All rights reserved.
+            © 2025 OVA. All rights reserved.
           </p>
         </div>
       </div>
