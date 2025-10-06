@@ -6,6 +6,7 @@ import { ArrowRight, BarChart3, Code2, Database, Users, Zap, CheckCircle } from 
 import heroImage from "@/assets/hero-dashboard.jpg";
 import beforeAfterImage from "@/assets/before-after-data.jpg";
 import aiAssistantIcon from "@/assets/ai-assistant-icon.jpg";
+import audienceImage from "@/assets/audience-section.jpg";
 // Image for the Audience section will be served from public/lovable-uploads
 
 const Index = () => {
@@ -229,7 +230,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img
-                src="/lovable-uploads/audience-section.jpg?v=2"
+                src={audienceImage}
                 alt="Target Audience - Data Professionals"
                 className="rounded-2xl shadow-soft w-full"
               />
