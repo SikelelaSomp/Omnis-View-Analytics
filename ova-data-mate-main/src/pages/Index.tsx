@@ -6,13 +6,13 @@ import { ArrowRight, BarChart3, Code2, Database, Users, Zap, CheckCircle } from 
 import heroImage from "@/assets/hero-dashboard.jpg";
 import beforeAfterImage from "@/assets/before-after-data.jpg";
 import aiAssistantIcon from "@/assets/ai-assistant-icon.jpg";
-import targetAudienceImage from "@/assets/target-audience-new.jpg";
+// Image for the Audience section will be served from public/lovable-uploads
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-hero">
       <Header />
-      
+
       {/* Hero Section */}
       <section id="home" className="container mx-auto px-6 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -23,7 +23,7 @@ const Index = () => {
                 <span className="text-primary">Data</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Faster Insights, Cleaner Code, Smarter Decisions. Turn raw data into clear visualizations, 
+                Faster Insights, Cleaner Code, Smarter Decisions. Turn raw data into clear visualizations,
                 SQL queries, and actionable insights — without repetitive work.
               </p>
             </div>
@@ -46,9 +46,9 @@ const Index = () => {
           </div>
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-primary opacity-20 rounded-3xl blur-3xl"></div>
-            <img 
-              src={heroImage} 
-              alt="OVA AI Dashboard Interface" 
+            <img
+              src={heroImage}
+              alt="OVA AI Dashboard Interface"
               className="relative z-10 rounded-3xl shadow-glow w-full"
             />
           </div>
@@ -87,9 +87,9 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src={beforeAfterImage} 
-                alt="Before and After Data Analysis" 
+              <img
+                src={beforeAfterImage}
+                alt="Before and After Data Analysis"
                 className="rounded-2xl shadow-soft w-full"
               />
             </div>
@@ -105,12 +105,12 @@ const Index = () => {
               Meet OVA, Your AI Data Companion
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              OVA assists analysts by generating clean visualizations, SQL queries, and actionable insights 
-              from your data — all in a safe, interactive workspace. You stay in control, making better 
+              OVA assists analysts by generating clean visualizations, SQL queries, and actionable insights
+              from your data — all in a safe, interactive workspace. You stay in control, making better
               decisions faster without over-relying on AI.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="bg-card border-border hover:shadow-soft transition-smooth">
               <CardHeader>
@@ -156,9 +156,9 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <img 
-                src={aiAssistantIcon} 
-                alt="AI Assistant with Data Analytics" 
+              <img
+                src={aiAssistantIcon}
+                alt="AI Assistant with Data Analytics"
                 className="rounded-2xl shadow-soft w-full"
               />
             </div>
@@ -167,7 +167,7 @@ const Index = () => {
                 Why Analysts Love OVA
               </h2>
               <p className="text-xl text-muted-foreground">
-                It's like Power BI + ChatGPT + SQL, all in one friendly companion. 
+                It's like Power BI + ChatGPT + SQL, all in one friendly companion.
                 Not a replacement — a partner that helps you work smarter, faster, and with confidence.
               </p>
               <div className="flex items-center space-x-4 text-lg">
@@ -201,7 +201,7 @@ const Index = () => {
               Designed for Anyone Who Works with Data
             </h2>
           </div>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -228,9 +228,9 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src={targetAudienceImage} 
-                alt="Target Audience - Data Professionals" 
+              <img
+                src="/lovable-uploads/audince-section.jpg"
+                alt="Target Audience - Data Professionals"
                 className="rounded-2xl shadow-soft w-full"
               />
             </div>
@@ -249,7 +249,7 @@ const Index = () => {
               Industry professionals share how OVA would transform their daily workflows
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="bg-card border-border">
               <CardHeader>
@@ -265,7 +265,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  "This concept is amazing! It would automate so much of my repetitive visualization work. 
+                  "This concept is amazing! It would automate so much of my repetitive visualization work.
                   Having AI generate the code while I focus on insights would be a game-changer."
                 </p>
               </CardContent>
@@ -285,7 +285,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  "I love this idea! The SQL assistance would simplify complex queries that usually take me hours. 
+                  "I love this idea! The SQL assistance would simplify complex queries that usually take me hours.
                   This would streamline my entire data analysis process."
                 </p>
               </CardContent>
@@ -305,7 +305,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  "This would revolutionize how I deliver projects to clients! The automation of data cleaning 
+                  "This would revolutionize how I deliver projects to clients! The automation of data cleaning
                   and visualization would help me focus on strategic insights instead of technical work."
                 </p>
               </CardContent>
