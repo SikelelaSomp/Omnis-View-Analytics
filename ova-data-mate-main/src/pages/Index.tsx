@@ -229,7 +229,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img
-                src="/lovable-uploads/audince-section.jpg"
+                src="/lovable-uploads/audience-section.jpg"
                 alt="Target Audience - Data Professionals"
                 className="rounded-2xl shadow-soft w-full"
               />
